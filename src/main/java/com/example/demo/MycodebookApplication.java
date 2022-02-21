@@ -10,6 +10,7 @@ public class MycodebookApplication {
 		SpringApplication.run(MycodebookApplication.class, args);
 		System.out.println("Hello World");
 		System.out.println("20-02-2022");
+		System.out.println("21-02-2022");
 		
 	}
 
