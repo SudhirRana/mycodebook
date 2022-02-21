@@ -30,13 +30,20 @@
 	</dependencies>
 
 	<build>
+	<finalName>mycodebook</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>2.6.3</version> 
+            <configuration>  
+                <archive>  
+                    <manifest>  
+                        <mainClass>com.example.demo.MycodebookApplication</mainClass>  
+                    </manifest>  
+                </archive>  
+            </configuration>  
 			</plugin>
 		</plugins>
-		<finalName>mycodebook</finalName>
 	</build>
-
 </project>
